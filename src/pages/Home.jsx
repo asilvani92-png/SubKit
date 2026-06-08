@@ -47,9 +47,9 @@ const rarityInfo = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div>
       {/* Hero */}
-      <section className="relative overflow-hidden turf-bg py-20 px-4">
+      <section className="relative overflow-hidden turf-bg min-h-screen flex items-center justify-center px-4">
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background/80 pointer-events-none" />
         <div className="relative max-w-3xl mx-auto text-center space-y-6">
           <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
